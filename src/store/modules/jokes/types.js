@@ -1,0 +1,8 @@
+const types = {
+  LOAD_JOKE: "LOAD_JOKE",
+  LOAD_JOKE_SUCCESS: "LOAD_JOKE_SUCCESS",
+  LOAD_JOKE_FAIL: "LOAD_JOKE_FAIL",
+  RESET_JOKE: "RESET_JOKE"
+};
+
+export default types;

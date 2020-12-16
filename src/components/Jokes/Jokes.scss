@@ -1,0 +1,27 @@
+.jokes {
+  max-width: 550px;
+  margin: auto;
+
+  .joke {
+    padding: 0;
+
+    &__item {
+      background-color: white;
+      border-radius: 5px;
+      margin: 10px 0;
+      padding: 20px;
+      list-style: none;
+      position: relative;
+    }
+
+    .category-content {
+      display: flex;
+      align-items: center;
+
+      &__icon {
+        height: 100%;
+        margin-right: 10px;
+      }
+    }
+  }
+}
